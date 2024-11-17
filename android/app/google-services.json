@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "886688963756",
+    "project_id": "bdintegracion",
+    "storage_bucket": "bdintegracion.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886688963756:android:3be98a8394d1aa35fbd309",
+        "android_client_info": {
+          "package_name": "com.bdintegracion.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCanbHomnxQg384lLWTA2RKmntLWjsvtzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

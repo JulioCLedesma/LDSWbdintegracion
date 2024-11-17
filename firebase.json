@@ -1,0 +1,40 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "bdintegracion",
+          "appId": "1:886688963756:android:3be98a8394d1aa35fbd309",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "bdintegracion",
+          "configurations": {
+            "android": "1:886688963756:android:3be98a8394d1aa35fbd309",
+            "ios": "1:886688963756:ios:8f2502944d707184fbd309",
+            "macos": "1:886688963756:ios:8f2502944d707184fbd309",
+            "web": "1:886688963756:web:7ce282a6c41d7826fbd309",
+            "windows": "1:886688963756:web:69000b7b3b2168cffbd309"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "ui": {
+      "enabled": true
+    }
+  },
+  "firestore": {
+    "rules": "firebase depoyed",
+    "indexes": "--only firestore"
+  }
+}
